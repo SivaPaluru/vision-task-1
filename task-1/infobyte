@@ -1,1 +1,123 @@
+@font-face {
+    src:url(fonts/OneDirection.ttf)format("truetype");
+    font-family: nos;
+}
+.paragraph{
+    text-align: center;
+    font-size: 50px;
+    font-family:sans-serif;
+    font-style:italic;
+    color:rgb(14, 29, 239);
+    font-family:caveta;
 
+}
+.paragraph2{
+    text-align:center;
+    font-size: 100px;
+    font-family:nos;
+    font-style:oblique;
+    color:darkmagenta;
+}
+.menu-bar
+{
+text-align:center;
+background-image:url("https://t3.ftcdn.net/jpg/02/89/72/00/240_F_289720001_JeepgWkYfDB1u0lSvkkF12vRV22DTOLd.jpg");
+background-size:cover;
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:cyan;
+}
+.menu-bar ul li
+{
+    font-family:"Roboto";
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    font-weight:bold
+
+
+}
+
+.menu-bar ul li:hover
+{
+
+    background:oldlace;
+    color:chocolate ;
+    
+    border-radius:3px;
+}
+.paragraph5{
+    font-size: 20px;
+    font-family:"Robto";
+    margin: 30px;
+    font-style:bold;
+    color:rgb(93, 98, 106);
+}
+
+
+
+.lets-go-btn{
+    color:azure;
+    background: rgb(43, 26, 227);
+    text-decoration: none;
+   
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -15px;
+    font-size:10px; 
+    font-family:"Roboto";
+    
+}
+.lets-go-btn:hover{
+    background: rgb(175, 252, 8);
+    
+}
+
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top:0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    color:rgb(19, 15, 8)
+}
+
+.icons a { margin-right:75px; }
+
+.icons :hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    background-color:rgb(223, 10, 10);
+    margin-top:28%;
+}
+.p1{
+    color:rgb(224, 225, 228);
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight:bold;
+    font-family: "Roboto";
+    padding:5px;
+    text-align:center;
+    
+}
+.background-part{
+    background-image:url("https://t4.ftcdn.net/jpg/02/74/90/05/240_F_274900544_0tlBOHmUv67GS75EDAZlVUVPUDj0mRkc.jpg");
+    background-size:cover;
+
+}
+.align{
+    text-align: center;
+}
+.img{
+    border-radius:8px;
+    margin:10px;
+}
